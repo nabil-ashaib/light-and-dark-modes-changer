@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Nabil ASHAIB | Modes changer</title>
+		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+	
+	
+	<body id="body">
+		<div class="container" id="container">
+			<div id="block1">
+				<h1 id="choose-mode">Choose Your Mode</h1>
+				<button onclick="sublight()" class="mode-btn" id="light-mode-btn">LIGHT</button>
+				<button onclick="subdark()" class="mode-btn" id="dark-mode-btn">DARK</button>
+			</div>
+			
+			<div id="block2">
+				<h6 id="mode-name" style="visibility: hidden;">Mode</h6>
+
+				<div id="mode-image">
+					<img src="light.png" width="100px" height="100px" style="visibility: hidden;">
+				</div>
+			</div>
+		</div>
+		
+		<p class="small" id="footer">Handcrafted by Nabil ASHAIB.</p>		
+		
+		<script src="script.js"></script>
+	</body>
+</html>

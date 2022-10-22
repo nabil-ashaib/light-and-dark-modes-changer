@@ -1,0 +1,61 @@
+#body{
+	color: white;
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background:rgb(27, 27, 255);
+}
+
+/************* Container **************/
+@media only screen and (min-width: 600px) {
+	#container {
+		width: 50%;
+		height: auto;
+		text-align: center;
+		margin: 10% 25% 5px 25%;
+		border-radius: 10px;
+		border: 2px solid #eeeeee;
+		background-color: blue ;
+	}
+}
+@media only screen and (max-width: 600px) {
+	/* For mobile phones */
+	#container {
+		width: 80%;
+		height: auto;
+		text-align: center;
+		margin: 30% 10% 5px 10%;
+		border-radius: 10px;
+		border: 2px solid #eeeeee;
+		background-color: blue ;
+	}
+}
+
+
+ /************* block 1 **************/
+#block1 {
+	width: 100%;
+	height: auto;
+	padding: 5%;
+	color: white;
+	text-align: center;
+}
+
+.mode-btn {
+	width: auto;
+	height: auto;
+	text-align: center;
+	margin: 0 10px;
+	color: white;
+	background: none;
+	border-radius: 50px;
+	border: solid 2px white;
+	padding: 8px 15px 9px 15px;
+}
+
+ /************* block 2 **************/
+#block2 {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 2% 0% 10% 0%;
+}
